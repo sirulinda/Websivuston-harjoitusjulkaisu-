@@ -1,0 +1,99 @@
+/* YLEISET */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+
+    display: flex;              
+    flex-direction: column;     
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ff96c2;
+    color: #EA3680;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* MAIN */
+
+main {
+    flex: 1;                    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f2e7ec;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;           
+}
+
+.text {
+    flex: 1 1 300px;
+}
+
+.image {
+    flex: 1 1 300px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #EA3680;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVIGAATIO */
+
+nav {
+    background-color: #EA3680;      
+    padding: 15px 0;
+}
+
+.menu {
+    list-style: none;       
+    margin: 0;
+    padding: 0;
+
+    display: flex;               
+    justify-content: center;     
+    gap: 30px;                   
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
